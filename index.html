@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MusiFy</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://kit.fontawesome.com/241d056e83.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- navbar -->
+    <header class="flex">
+        <div class="leftHead flex">
+            <div class="logo flex">
+                <img src="static/logo.png" alt="" width="80px" style="margin-bottom: -50px;">
+
+            </div>
+            <div class="favs flex">
+                <h4 style="margin-left: 20px;">Favourites</h4>
+            </div>
+
+        </div>
+        <div class="rightHead flex">
+            <i id="s" class="fa-solid fa-magnifying-glass"></i>
+            <div class="searchbar">
+                <input type="text" name="search" id="search" placeholder="Search">
+            </div>
+
+            <div class="notification">
+                <i id="bell" class="fa-solid fa-bell"></i>
+            </div>
+            <div class="profile">
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <!-- main screen -->
+    <div class="screen">
+        <div class="main">
+            <!-- recent Album div -->
+            <div class="recentAlbum">
+                <div class="recent flex">
+                    <img src="static/Mirage.jpg" alt="" width="150px" height="150px">
+                    <div class="h1" style="margin: 0; margin-left: 10px;">Recently Played</div>
+
+                </div>
+
+                <div class="btns">
+                    <button>Play</button>
+                    <button>Next</button>
+                </div>
+
+            </div>
+
+            <!-- Albums section -->
+            <h1 class="heading">Albums</h1>
+            <div class="albums flex">
+                <a href="singlePlaylist.html">
+                    <div class="a"><img src="static/album1.webp" alt="" height="150px" width="220px"></div>
+                </a>
+                <a href="singlePlaylist.html">
+                    <div class="a"><img src="static/album2.jpg" alt="" height="150px" width="220px"></div>
+                </a>
+                <a href="singlePlaylist.html">
+                    <div class="a"><img src="static/album3.avif" alt="" height="150px" width="220px"></div>
+                </a>
+                <a href="singlePlaylist.html">
+                    <div class="a"><img src="static/album4.jpg" alt="" height="150px" width="220px"></div>
+                </a>
+            </div>
+
+            <!-- Popular artist Section -->
+            <h1 class="heading">Popular Artists</h1>
+            <div class="popularArtist flex">
+                <div class="artistProfile">
+                    <img class="round" src="static/bieber.webp" alt="" width="120px">
+                    <div class="artistName">Justin</div>
+                </div>
+
+                <div class="artistProfile">
+                    <img class="round" src="static/arijit.webp" alt="" width="120px" title="jsdad">
+                    <div class="artistName">Arijit</div>
+                </div>
+                <div class="artistProfile">
+                    <img class="round" src="static/selena.jpg" alt="" width="120px" height="120px">
+                    <div class="artistName">Selena</div>
+                </div>
+                <div class="artistProfile">
+                    <img class="round" src="static/atif.jpg" alt="" width="120px">
+                    <div class="artistName">Atif</div>
+                </div>
+                <div class="artistProfile">
+                    <img class="round" src="static/mcStan.jpg" alt="" width="120px">
+                    <div class="artistName">Mc Stan</div>
+                </div>
+                <div class="artistProfile">
+                    <img class="round" src="static/taylor.webp" alt="" width="120px">
+                    <div class="artistName">Taylor</div>
+                </div>
+            </div>
+
+            <!-- Trending Section -->
+            <H1 class="heading">Trending</H1>
+            <div class="trending flex">
+                <div class="musicCard flex">
+                    <img class="musicCardArt" src="static/Mirage.jpg" alt="" width="110px">
+                    <div class="musicCardTitle">Mirage</div>
+                    <div class="musicCardDate">01/12/23</div>
+
+                </div>
+                <div class="musicCard flex">
+                    <img class="musicCardArt" src="static/1.jpg" alt="" width="110px">
+                    <div class="musicCardTitle">See you Again</div>
+                    <div class="musicCardDate">12/06/2001</div>
+
+                </div>
+                <div class="musicCard flex">
+                    <img class="musicCardArt" src="static/2.jpg" alt="" width="110px">
+                    <div class="musicCardTitle">Sorry</div>
+                    <div class="musicCardDate">04/10/2002</div>
+
+                </div>
+                <div class="musicCard flex">
+                    <img class="musicCardArt" src="static/3.jpg" alt="" width="110px">
+                    <div class="musicCardTitle">Uptown Funk</div>
+                    <div class="musicCardDate">06/10/2002</div>
+
+                </div>
+                <div class="musicCard flex">
+                    <img class="musicCardArt" src="static/4.jpg" alt="" width="110px">
+                    <div class="musicCardTitle">Roar</div>
+                    <div class="musicCardDate">date</div>
+
+                </div>
+                <div class="musicCard flex">
+                    <img class="musicCardArt" src="static/1.jpg" alt="" width="110px">
+                    <div class="musicCardTitle">See you again</div>
+                    <div class="musicCardDate">date</div>
+
+                </div>
+            </div>
+
+            <!-- Latest Release section -->
+            <h1 class="heading">Latest Release</h1>
+            <div class="trending flex">
+                <div class="musicCard flex">
+                    <img class="musicCardArt" src="static/Mirage.jpg" alt="" width="110px">
+                    <div class="musicCardTitle">Mirage</div>
+                    <div class="musicCardDate">date</div>
+
+                </div>
+                <div class="musicCard flex">
+                    <img class="musicCardArt" src="static/4.jpg" alt="" width="110px">
+                    <div class="musicCardTitle">See you again</div>
+                    <div class="musicCardDate">date</div>
+
+                </div>
+                <div class="musicCard flex">
+                    <img class="musicCardArt" src="static/3.jpg" alt="" width="110px">
+                    <div class="musicCardTitle">Sorry</div>
+                    <div class="musicCardDate">date</div>
+
+                </div>
+                <div class="musicCard flex">
+                    <img class="musicCardArt" src="static/2.jpg" alt="" width="110px">
+                    <div class="musicCardTitle">Uptown funk</div>
+                    <div class="musicCardDate">date</div>
+
+                </div>
+                <div class="musicCard flex">
+                    <img class="musicCardArt" src="static/1.jpg" alt="" width="110px">
+                    <div class="musicCardTitle">Sorry</div>
+                    <div class="musicCardDate">date</div>
+
+                </div>
+                <div class="musicCard flex">
+                    <img class="musicCardArt" src="static/Mirage.jpg" alt="" width="110px">
+                    <div class="musicCardTitle">Mirage</div>
+                    <div class="musicCardDate">date</div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Sidebar Queue -->
+        <div class="sidebar">
+            <div class="top flex">
+                <h1 style="margin-left: 10px;">Queue</h1>
+                <a href="#p"><i class="fa-solid fa-bars"></i></a>
+            </div>
+            <div id="p" class="popup flex">
+                <div class="options flex">
+                    <a href="#n"><div>Next Playlist</div></a>
+                    <a class="close" href="#x">X</a>
+
+                </div>
+                <a href="#n"><div class="options">Change Playlist</div></a>
+                
+            </div>
+            
+            <div class="music flex">
+                <div class="info flex">
+                    <div style="font-weight: 100; color: rgb(164, 164, 164);">01</div>
+                    <div class="queueArt" style="margin-left: 10px;">
+                        <img src="static/Mirage.jpg" alt="" width="50px">
+                    </div>
+                    <div class="q">
+                        <div class="qName">Mirage</div>
+                        <div class="qArtist">else</div>
+                    </div>
+
+                </div>
+                <div>
+                    <i id="heart" class="fa-regular fa-heart"></i>
+                </div>
+            </div>
+            <div class="music flex">
+                <div class="info flex">
+                    <div style="font-weight: 100; color: rgb(164, 164, 164);">02</div>
+                    <div class="queueArt" style="margin-left: 10px;">
+                        <img src="static/1.jpg" alt="" width="50px">
+                    </div>
+                    <div class="q">
+                        <div class="qName">Sorry</div>
+                        <div class="qArtist">Justin Bieber</div>
+                    </div>
+                </div>
+                <div>
+                    <i id="heart" class="fa-regular fa-heart"></i>
+                </div>
+            </div>
+            <div class="music flex">
+                <div class="info flex">
+                    <div style="font-weight: 100; color: rgb(164, 164, 164);">03</div>
+                    <div class="queueArt" style="margin-left: 10px;">
+                        <img src="static/2.jpg" alt="" width="50px">
+                    </div>
+                    <div class="q">
+                        <div class="qName">See you again</div>
+                        <div class="qArtist">else</div>
+                    </div>
+                </div>
+                <div>
+                    <i id="heart" class="fa-regular fa-heart"></i>
+                </div>
+            </div>
+            <div class="music flex">
+                <div class="info flex">
+                    <div style="font-weight: 100; color: rgb(164, 164, 164);">04</div>
+                    <div class="queueArt" style="margin-left: 10px;">
+                        <img src="static/3.jpg" alt="" width="50px">
+                    </div>
+                    <div class="q">
+                        <div class="qName">Uptown Funk</div>
+                        <div class="qArtist">Bruno Mars</div>
+                    </div>
+                </div>
+                <div>
+                    <i id="heart" class="fa-regular fa-heart"></i>
+                </div>
+            </div>
+            <div class="music flex">
+                <div class="info flex">
+                    <div style="font-weight: 100; color: rgb(164, 164, 164);">05</div>
+                    <div class="queueArt" style="margin-left: 10px;">
+                        <img src="static/4.jpg" alt="" width="50px">
+                    </div>
+                    <div class="q">
+                        <div class="qName">Roar</div>
+                        <div class="qArtist">kety perry</div>
+                    </div>
+                </div>
+                <div>
+                    <i id="heart" class="fa-regular fa-heart"></i>
+                </div>
+            </div>
+            <div class="music flex">
+                <div class="info flex">
+                    <div style="font-weight: 100; color: rgb(164, 164, 164);">06</div>
+                    <div class="queueArt" style="margin-left: 10px;">
+                        <img src="static/1.jpg" alt="" width="50px">
+                    </div>
+                    <div class="q">
+                        <div class="qName">Mirage</div>
+                        <div class="qArtist">else</div>
+                    </div>
+                </div>
+                <div>
+                    <i id="heart" class="fa-regular fa-heart"></i>
+                </div>
+            </div>
+            <div class="music flex">
+                <div class="info flex">
+                    <div style="font-weight: 100; color: rgb(164, 164, 164);">07</div>
+                    <div class="queueArt" style="margin-left: 10px;">
+                        <img src="static/Mirage.jpg" alt="" width="50px">
+                    </div>
+                    <div class="q">
+                        <div class="qName">Mirage</div>
+                        <div class="qArtist">else</div>
+                    </div>
+                </div>
+                <div>
+                    <i id="heart" class="fa-regular fa-heart"></i>
+                </div>
+            </div>
+            <div class="music flex">
+                <div class="info flex">
+                    <div style="font-weight: 100; color: rgb(164, 164, 164);">07</div>
+                    <div class="queueArt" style="margin-left: 10px;">
+                        <img src="static/2.jpg" alt="" width="50px">
+                    </div>
+                    <div class="q">
+                        <div class="qName">Mirage</div>
+                        <div class="qArtist">else</div>
+                    </div>
+                </div>
+                <div>
+                    <i id="heart" class="fa-regular fa-heart"></i>
+                </div>
+            </div>
+            <div class="music flex">
+                <div class="info flex">
+                    <div style="font-weight: 100; color: rgb(164, 164, 164);">07</div>
+                    <div class="queueArt" style="margin-left: 10px;">
+                        <img src="static/3.jpg" alt="" width="50px">
+                    </div>
+                    <div class="q">
+                        <div class="qName">Mirage</div>
+                        <div class="qArtist">else</div>
+                    </div>
+                </div>
+                <div>
+                    <i id="heart" class="fa-regular fa-heart"></i>
+                </div>
+            </div>
+            <div class="music flex">
+                <div class="info flex">
+                    <div style="font-weight: 100; color: rgb(164, 164, 164);">07</div>
+                    <div class="queueArt" style="margin-left: 10px;">
+                        <img src="static/4.jpg" alt="" width="50px">
+                    </div>
+                    <div class="q">
+                        <div class="qName">Mirage</div>
+                        <div class="qArtist">else</div>
+                    </div>
+                </div>
+                <div>
+                    <i id="heart" class="fa-regular fa-heart"></i>
+                </div>
+            </div>
+            <div class="music flex">
+                <div class="info flex">
+                    <div style="font-weight: 100; color: rgb(164, 164, 164);">07</div>
+                    <div class="queueArt" style="margin-left: 10px;">
+                        <img src="static/1.jpg" alt="" width="50px">
+                    </div>
+                    <div class="q">
+                        <div class="qName">Mirage</div>
+                        <div class="qArtist">else</div>
+                    </div>
+                </div>
+                <div>
+                    <i id="heart" class="fa-regular fa-heart"></i>
+                </div>
+            </div>
+
+
+
+
+
+        </div>
+    </div>
+
+
+    <!-- PlayerBar -->
+    <div class="player flex">
+        <div class="pmusic flex">
+            <div class="info flex">
+                <div class="queueArt" style="margin-left: 10px;">
+                    <img src="static/Mirage.jpg" alt="" width="50px">
+                </div>
+                <div class="q">
+                    <div class="qName">Mirage</div>
+                    <div class="qArtist">else</div>
+                </div>
+
+            </div>
+            <div>
+                <i id="heart1" class="fa-regular fa-heart"></i>
+            </div>
+        </div>
+        <div class="controls flex">
+            <div class="controlsTop flex">
+                <i class="fa-solid fa-shuffle ctrls"></i>
+                <i class="fa-solid fa-backward-step ctrls"></i>
+                <i id="pause" class="fa-solid fa-pause ctrls"></i>
+                <i class="fa-solid fa-forward-step ctrls"></i>
+                <i class="fa-solid fa-repeat ctrls"></i>
+            </div>
+            <div class="controlsBottom flex">
+                <h6 class="time">00:00</h6>
+                <input type="range" name="range" id="range">
+                <h6 class="time">04:32</h6>
+
+            </div>
+
+        </div>
+        <div class="volume flex">
+            <img src="static/volume.png" alt="" width="20px" style="margin-right: 10px;">
+           <input type="range" name="" id="" style="width: 100px;margin-right: 20px;">
+        </div>
+
+
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

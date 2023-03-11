@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="singlePlaylist.css">
+
+    <script src="https://kit.fontawesome.com/241d056e83.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="flex">
+        <div class="leftHead flex">
+            <div class="logo flex">
+                <img src="static/logo.png" alt="" width="80px" style="margin-bottom: -50px;">
+
+            </div>
+            <div class="favs flex">
+                <h4 style="margin-left: 20px;">Favourites</h4>
+            </div>
+
+        </div>
+        <div class="rightHead flex">
+            <i id="s" class="fa-solid fa-magnifying-glass"></i>
+            <div class="searchbar">
+                <input type="text" name="search" id="search" placeholder="Search">
+            </div>
+
+            <div class="notification">
+                <i id="bell" class="fa-solid fa-bell"></i>
+            </div>
+            <div class="profile">
+
+            </div>
+
+        </div>
+
+    </header>
+    <!-- this page is same as the index/home page , only main section is updated -->
+    <div class="screen">
+        <div class="main">
+            <div class="recentAlbum">
+                <!-- updated section with playlist menu -->
+                <div class="recent flex">
+                    <img src="static/Mirage.jpg" alt="" width="300px" >
+                    <div class="pInfo flex">
+                        <div class="pTitle flex">
+                            <div><h1 class="pt" >ColdPlay</h1></div>
+                            <h6 class="count">600 followers</h6>
+                            <a href="index.html">
+                                <img src="static/back.png" alt="" width="30px">
+                            </a>
+
+                        </div>
+                        <div class="pArtist">
+                            <h6>British Brand</h6>
+                        </div>
+                        <div class="para">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus nam delectus facilis assumenda iste qui maiores omnis ipsam iusto, labore dolore aspernatur possimus hic ad alias earum illo praesentium molestiae.</p>
+
+                        </div>
+                        <div class="btns flex">
+                            <button class="play">Play</button>
+                            <button class="follow">Follow</button>
+                        </div>
+
+                        
+                    </div>
+
+                </div>
+                <!-- playlist Tracks -->
+                <div class="tracks flex">
+                    <div class="playlistMusic flex">
+                        <div class="info flex">
+                            <div style="font-weight: 100; color: rgb(164, 164, 164);">01</div>
+                            <div class="queueArt" style="margin-left: 10px;">
+                                <img src="static/1.jpg" alt="" width="50px">
+                            </div>
+                            <div class="q">
+                                <div class="qName">Mirage</div>
+                                <div class="qArtist">else</div>
+                            </div>
+                        </div>
+                        <div>
+                            <i id="heart" class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                    <div class="playlistMusic flex">
+                        <div class="info flex">
+                            <div style="font-weight: 100; color: rgb(164, 164, 164);">02</div>
+                            <div class="queueArt" style="margin-left: 10px;">
+                                <img src="static/2.jpg" alt="" width="50px">
+                            </div>
+                            <div class="q">
+                                <div class="qName">Mirage</div>
+                                <div class="qArtist">else</div>
+                            </div>
+                        </div>
+                        <div>
+                            <i id="heart" class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                    <div class="playlistMusic flex">
+                        <div class="info flex">
+                            <div style="font-weight: 100; color: rgb(164, 164, 164);">03</div>
+                            <div class="queueArt" style="margin-left: 10px;">
+                                <img src="static/3.jpg" alt="" width="50px">
+                            </div>
+                            <div class="q">
+                                <div class="qName">Mirage</div>
+                                <div class="qArtist">else</div>
+                            </div>
+                        </div>
+                        <div>
+                            <i id="heart" class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                    <div class="playlistMusic flex">
+                        <div class="info flex">
+                            <div style="font-weight: 100; color: rgb(164, 164, 164);">04</div>
+                            <div class="queueArt" style="margin-left: 10px;">
+                                <img src="static/4.jpg" alt="" width="50px">
+                            </div>
+                            <div class="q">
+                                <div class="qName">Mirage</div>
+                                <div class="qArtist">else</div>
+                            </div>
+                        </div>
+                        <div>
+                            <i id="heart" class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                    <div class="playlistMusic flex">
+                        <div class="info flex">
+                            <div style="font-weight: 100; color: rgb(164, 164, 164);">05</div>
+                            <div class="queueArt" style="margin-left: 10px;">
+                                <img src="static/Mirage.jpg" alt="" width="50px">
+                            </div>
+                            <div class="q">
+                                <div class="qName">Mirage</div>
+                                <div class="qArtist">else</div>
+                            </div>
+                        </div>
+                        <div>
+                            <i id="heart" class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                    <div class="playlistMusic flex">
+                        <div class="info flex">
+                            <div style="font-weight: 100; color: rgb(164, 164, 164);">06</div>
+                            <div class="queueArt" style="margin-left: 10px;">
+                                <img src="static/1.jpg" alt="" width="50px">
+                            </div>
+                            <div class="q">
+                                <div class="qName">Mirage</div>
+                                <div class="qArtist">else</div>
+                            </div>
+                        </div>
+                        <div>
+                            <i id="heart" class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                    <div class="playlistMusic flex">
+                        <div class="info flex">
+                            <div style="font-weight: 100; color: rgb(164, 164, 164);">07</div>
+                            <div class="queueArt" style="margin-left: 10px;">
+                                <img src="static/2.jpg" alt="" width="50px">
+                            </div>
+                            <div class="q">
+                                <div class="qName">Mirage</div>
+                                <div class="qArtist">else</div>
+                            </div>
+                        </div>
+                        <div>
+                            <i id="heart" class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                    <div class="playlistMusic flex">
+                        <div class="info flex">
+                            <div style="font-weight: 100; color: rgb(164, 164, 164);">08</div>
+                            <div class="queueArt" style="margin-left: 10px;">
+                                <img src="static/3.jpg" alt="" width="50px">
+                            </div>
+                            <div class="q">
+                                <div class="qName">Mirage</div>
+                                <div class="qArtist">else</div>
+                            </div>
+                        </div>
+                        <div>
+                            <i id="heart" class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+
+                </div>
+
+                
+
+            </div>
+            
+            
+
+            
+            
+
+
+
+
+
+
+        </div>
+        
+        <div class="sidebar">
+            <h1 style="margin-left: 10px;">Recently Played</h1>
+            <div class="music flex">
+                <div class="info flex">
+                    <div style="font-weight: 100; color: rgb(164, 164, 164);">01</div>
+                    <div class="queueArt" style="margin-left: 10px;">
+                        <img src="static/Mirage.jpg" alt="" width="50px">
+                    </div>
+                    <div class="q">
+                        <div class="qName">Mirage</div>
+                        <div class="qArtist">else</div>
+                    </div>
+
+                </div>
+                <div>
+                    <i id="heart" class="fa-regular fa-heart"></i>
+                </div>
+            </div>
+            <div class="music flex">
+                <div class="info flex">
+                    <div style="font-weight: 100; color: rgb(164, 164, 164);">02</div>
+                    <div class="queueArt" style="margin-left: 10px;">
+                        <img src="static/1.jpg" alt="" width="50px">
+                    </div>
+                    <div class="q">
+                        <div class="qName">Mirage</div>
+                        <div class="qArtist">else</div>
+                    </div>
+                </div>
+                <div>
+                    <i id="heart" class="fa-regular fa-heart"></i>
+                </div>
+            </div>
+            <div class="music flex">
+                <div class="info flex">
+                    <div style="font-weight: 100; color: rgb(164, 164, 164);">03</div>
+                    <div class="queueArt" style="margin-left: 10px;">
+                        <img src="static/2.jpg" alt="" width="50px">
+                    </div>
+                    <div class="q">
+                        <div class="qName">Mirage</div>
+                        <div class="qArtist">else</div>
+                    </div>
+                </div>
+                <div>
+                    <i id="heart" class="fa-regular fa-heart"></i>
+                </div>
+            </div>
+            <div class="music flex">
+                <div class="info flex">
+                    <div style="font-weight: 100; color: rgb(164, 164, 164);">04</div>
+                    <div class="queueArt" style="margin-left: 10px;">
+                        <img src="static/3.jpg" alt="" width="50px">
+                    </div>
+                    <div class="q">
+                        <div class="qName">Mirage</div>
+                        <div class="qArtist">else</div>
+                    </div>
+                </div>
+                <div>
+                    <i id="heart" class="fa-regular fa-heart"></i>
+                </div>
+            </div>
+            <div class="music flex">
+                <div class="info flex">
+                    <div style="font-weight: 100; color: rgb(164, 164, 164);">05</div>
+                    <div class="queueArt" style="margin-left: 10px;">
+                        <img src="static/4.jpg" alt="" width="50px">
+                    </div>
+                    <div class="q">
+                        <div class="qName">Mirage</div>
+                        <div class="qArtist">else</div>
+                    </div>
+                </div>
+                <div>
+                    <i id="heart" class="fa-regular fa-heart"></i>
+                </div>
+            </div>
+            <div class="music flex">
+                <div class="info flex">
+                    <div style="font-weight: 100; color: rgb(164, 164, 164);">06</div>
+                    <div class="queueArt" style="margin-left: 10px;">
+                        <img src="static/1.jpg" alt="" width="50px">
+                    </div>
+                    <div class="q">
+                        <div class="qName">Mirage</div>
+                        <div class="qArtist">else</div>
+                    </div>
+                </div>
+                <div>
+                    <i id="heart" class="fa-regular fa-heart"></i>
+                </div>
+            </div>
+            <div class="music flex">
+                <div class="info flex">
+                    <div style="font-weight: 100; color: rgb(164, 164, 164);">07</div>
+                    <div class="queueArt" style="margin-left: 10px;">
+                        <img src="static/Mirage.jpg" alt="" width="50px">
+                    </div>
+                    <div class="q">
+                        <div class="qName">Mirage</div>
+                        <div class="qArtist">else</div>
+                    </div>
+                </div>
+                <div>
+                    <i id="heart" class="fa-regular fa-heart"></i>
+                </div>
+            </div>
+            <div class="music flex">
+                <div class="info flex">
+                    <div style="font-weight: 100; color: rgb(164, 164, 164);">07</div>
+                    <div class="queueArt" style="margin-left: 10px;">
+                        <img src="static/2.jpg" alt="" width="50px">
+                    </div>
+                    <div class="q">
+                        <div class="qName">Mirage</div>
+                        <div class="qArtist">else</div>
+                    </div>
+                </div>
+                <div>
+                    <i id="heart" class="fa-regular fa-heart"></i>
+                </div>
+            </div>
+            <div class="music flex">
+                <div class="info flex">
+                    <div style="font-weight: 100; color: rgb(164, 164, 164);">07</div>
+                    <div class="queueArt" style="margin-left: 10px;">
+                        <img src="static/3.jpg" alt="" width="50px">
+                    </div>
+                    <div class="q">
+                        <div class="qName">Mirage</div>
+                        <div class="qArtist">else</div>
+                    </div>
+                </div>
+                <div>
+                    <i id="heart" class="fa-regular fa-heart"></i>
+                </div>
+            </div>
+            <div class="music flex">
+                <div class="info flex">
+                    <div style="font-weight: 100; color: rgb(164, 164, 164);">07</div>
+                    <div class="queueArt" style="margin-left: 10px;">
+                        <img src="static/4.jpg" alt="" width="50px">
+                    </div>
+                    <div class="q">
+                        <div class="qName">Mirage</div>
+                        <div class="qArtist">else</div>
+                    </div>
+                </div>
+                <div>
+                    <i id="heart" class="fa-regular fa-heart"></i>
+                </div>
+            </div>
+            <div class="music flex">
+                <div class="info flex">
+                    <div style="font-weight: 100; color: rgb(164, 164, 164);">07</div>
+                    <div class="queueArt" style="margin-left: 10px;">
+                        <img src="static/1.jpg" alt="" width="50px">
+                    </div>
+                    <div class="q">
+                        <div class="qName">Mirage</div>
+                        <div class="qArtist">else</div>
+                    </div>
+                </div>
+                <div>
+                    <i id="heart" class="fa-regular fa-heart"></i>
+                </div>
+            </div>
+
+
+
+
+
+        </div>
+    </div>
+
+    <div class="player flex">
+        <div class="pmusic flex">
+            <div class="info flex">
+                <div class="queueArt" style="margin-left: 10px;">
+                    <img src="static/Mirage.jpg" alt="" width="50px">
+                </div>
+                <div class="q">
+                    <div class="qName">Mirage</div>
+                    <div class="qArtist">else</div>
+                </div>
+
+            </div>
+            <div>
+                <i id="heart1" class="fa-regular fa-heart"></i>
+            </div>
+        </div>
+        <div class="controls flex">
+            <div class="controlsTop flex">
+                <i class="fa-solid fa-shuffle ctrls"></i>
+                <i class="fa-solid fa-backward-step ctrls"></i>
+                <i id="pause" class="fa-solid fa-pause ctrls"></i>
+                <i class="fa-solid fa-forward-step ctrls"></i>
+                <i class="fa-solid fa-repeat ctrls"></i>
+            </div>
+            <div class="controlsBottom flex">
+                <h6 class="time">0:0</h6>
+                <input type="range" name="range" id="range">
+                <h6 class="time">4:32</h6>
+
+            </div>
+
+        </div>
+        <div class="volume flex">
+            <img src="static/volume.png" alt="" width="20px" style="margin-right: 10px;">
+            <input type="range" name="" id="" style="width: 100px; margin-right: 20px;">
+        </div>
+
+
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
